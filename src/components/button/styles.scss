@@ -1,0 +1,25 @@
+.button{
+  width: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border: 1px solid purple;
+    color: white;
+    border: none;
+    border: 0.82rem;
+    border-radius: 14px;
+    cursor: pointer;
+    &:hover{
+      background-color: rgba(128, 0, 128, 0.295);
+      outline: none;
+      border: none;
+    }
+    &--secondary {
+      background-color: green;
+      &:hover{
+        background-color: rgba(0, 128, 0, 0.39);
+      }
+    }
+}
